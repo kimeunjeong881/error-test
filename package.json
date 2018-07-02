@@ -1,0 +1,29 @@
+{
+  "name": "error-test",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "git": "^0.1.5",
+    "git-cli": "^0.10.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "homepage": "http://kimeunjeong881.github.io/error-test",
+  "devDependencies": {
+    "@ionic/app-scripts": "^3.1.10",
+    "gh-pages": "^1.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kimeunjeong881/error-test.git"
+  }
+}

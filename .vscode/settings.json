@@ -1,0 +1,7 @@
+{
+    // prettier + eslint setting
+    "editor.formatOnSave": true,
+    "javascript.format.enable": false,
+    "prettier.eslintIntegration": true,
+    "git.ignoreLimitWarning": true
+}
